@@ -8,19 +8,7 @@ f = open('porkbun_domain_pricing.json')
 # returns JSON object as 
 # a dictionary
 data = json.load(f)
-valor = ""
-  
-# Iterating through the json
-# list
 
-for d in data['pricing']['xp']['registration']:
-    valor = valor + d
-
-
-print(valor)
-
-
-print(data['pricing']['xp']['registration'])
 
 for x in data['pricing']:
 
