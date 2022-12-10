@@ -2,9 +2,6 @@
 import requests 
   
 API_ENDPOINT = "https://porkbun.com/api/json/v3/ping"
-  
-secretapikey = "sk1_0cea7273b81fbe807e728f0566da434285292fb316bbb86e63df99caf8ae85b6"
-apikey = "pk1_770ce5d65c686144605b90eca0fc2734ca117eb3e5068dffa3d424bdeb2ac013"
 
   
 data = {'apikey':apikey, 
